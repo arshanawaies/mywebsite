@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awaies</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <ul class="navlist">
+            <li><a href="#companies">COMPANIES</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#earlierlife">EARLIER LIFE</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        <div class="nav-right"></div>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+    
+    <section class="container">
+        <h1>YOUR AWAIES</h1>
+    </section>
+
+    <script type="text/javascript">
+        let menu = document.querySelector('#menu-icon');
+        let navlist = document.querySelector('.navlist');
+        menu.onclick = () => {
+            menu.classList.toggle('bx-x');
+            navlist.classList.toggle('open')
+        }
+    </script><br>
+
+    <div id="companies" class="companies">
+        <h1>Companies</h1><br><br>
+        <div class="companylogo">
+            <img src="1.png">
+            <img src="2.png">
+            <img src="3.png">
+            
+            </ul>
+            <div class="companylogo">
+                <img src="4.png">
+                <img src="5.png">
+                <img src="6.png">
+            </ul>
+        </div>
+    </div>
+
+    <br><br><span class="divider2"></span><br><br>
+    <a href="#"><div id="about" class="about">
+        <h1>About</h1>
+        <img src="three.jpg" class="three">
+        <img src="four.jpg" class="four">
+        <p>Hi, I’m Arshan Awaies! I was born and raised in the vibrant town of Jamalpur, where my journey of curiosity and passion for life began. <br>
+            I have a deep love for exploring the world—whether it’s hiking through trails, traveling to new destinations, or occasionally cycling to clear my mind. My family often describes me as a laughing and cheerful person, always finding joy in life’s little moments. <br>
+            Europe holds a special place in my heart because of its breathtaking beauty, and I dream of visiting its scenic landscapes one day. My personal goal is simple yet fulfilling: to lead a healthy, wealthy, and happy life. <br>
+            I’m also inspired by the timeless wisdom of Rumi. His quotes remind me to stay grounded and embrace life’s mysteries with an open heart.</p>
+    </div></a>
+    <br><span class="divider3"></span><br><br>
+
+    <a href="#"><div id="earlierlife" class="earlierlife">
+        <h1>Earlier Life</h1>
+        <img src="two.jpg" class="one">
+        <img src="one.jpg" class="two">
+        <p>I was born on May 12, 2007, in the lively town of Jamalpur. My childhood was filled with moments of self-discovery, as I faced many challenges to grow and become a better version of myself. <br>
+            Although I wasn’t a top student in school, I found joy and fascination in subjects like physics and mathematics, which sparked my curiosity about how the world works. While others often look to role models for inspiration, I’ve always believed in pushing myself forward and finding motivation from within. <br>        
+            As a child, I dreamed of becoming a football player, driven by a passion for the game. Unfortunately, I couldn’t pursue that dream, but it taught me to stay resilient and explore other paths in life.</p>
+    </div></a>
+    <br><span class="divider3"></span><br><br>
+
+    <div id="contact" class="contact">
+        <h1>Get in Touch</h1><br><br>
+        <div class="contact-form">
+        <form action="send_email.php" method="post">
+            <input type="text" placeholder="Your Name" required class="input">
+            <input type="email" placeholder="Email Address" required class="input">
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea><br>
+            <input type="submit" name="" value="Submit" class="button">
+        </form>
+        </div>
+
+    </div>
+    
+   
+   <br><br><br><br><br><br>
+
+    <span class="divider"></span>
+    <footer>       
+        <a href="#"><h3>@AWAIES</h3></a>
+        <div class="footer-content">
+
+            <div class="icons">
+                <a href="https://www.facebook.com/arshanawaies" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.instagram.com/arshanawaies" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.youtube.com/@arshanawaies" target="_blank"><i class='bx bxl-youtube'></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+</body>
+</html>
